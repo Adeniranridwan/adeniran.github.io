@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Adeniran Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Adeniran Ridwan Ajbola</h1>
+						<p>A Data Scientist Proficient in deriving statstical insight from data and building models to aid decision making </p>
+						<p>I am skilled working with SQL, Tableau, Python,Flask, Azure, Django </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+						</ul>
+						<ul class="icons alt">
+							<li><a href="linkedin.com/in/adeniran-ridwan" class=""><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://cv.tiiny.site"	class=""><span class="label">Curriculum Vitae</span></a></li>
+							<li><a href="https://github.com/Adeniranridwan/cv" class=""><span class="label">CV2</span></a></li>
+							<li><a href="https://github.com/Adeniranridwan" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Data Wrangling</a></h2>
+									<p>Performed data wrangling on the WeRateDogs dataset using Python libraries such as Numpy, Pandas, Seaborn, Matplotlib, and Json. I obtained the dataset from a Twitter 
+										account that focuses on rating dogs. During the data wrangling process, I gathered, assessed, and cleaned the data, addressing issues related to data quality and tidiness.
+										 Once I had cleaned the dataset, I analyzed and visualized the data to gain insights, such as the most common dog breed, dog stage, most common dog name, and tweet sources.</p>
+										</header>
+								<a href="https://github.com/Adeniranridwan/Wrangling-of-Tweet-Archive-Dataset/blob/main/wrangle_act.ipynb" class="image main"><img src="images/wrangling.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/Adeniranridwan/Wrangling-of-Tweet-Archive-Dataset/blob/main/wrangle_act.ipynb" class="button">View Project<</a></li>
+								</ul>
+							</article>
+
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Fraud Detection in Financial Transactions</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/images (1).jpg" alt="" /></a>
+									<p>•	Performed random sampling on 6,362,620 online payment big dataset to generate 300,000 subset with same 0.9995% fraudulent cases and 0.0005 non fraudulent case.
+										•	 Preprocessed and Carried out feature engineering to  generate new features. Experimented three (3)  feature selection techniques: 
+										the SelectKBest, Recursive Feature Elimination (RFE), and Boruta Feature selection with different machine learning models:
+										•	Random Forest model have a better baseline performance with accuracy of 98%  and auc of 0.98	
+										.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project<</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/Adeniranridwan/Tuberculosis-detection/blob/main/Tuberculosis_detection_%20(1).ipynb">Tuberculosis Detection</a></h2>
+									</header>
+									<a href="https://github.com/Adeniranridwan/Tuberculosis-detection/blob/main/Tuberculosis_detection_%20(1).ipynb" class="image fit"><img src="images/Tuberculosis.jpeg" alt="" /></a>
+									<p>Developed a model that detect tuberculosis using clinical data, imaging (like chest X-rays). Ensuredthat the detection method is cost-effective and scalable for deployment in low-resource environments. Aimedhigh sensitivity and specificity to minimize false negatives and false positives..</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Adeniranridwan/Tuberculosis-detection/blob/main/Tuberculosis_detection_%20(1).ipynb"class="button">View Project</a></li>
+									</ul>
+								</article>
+							
+								<article>
+									<header>
+										<h2><a href="#">Landmark classification and tagging for social media</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/landmark.png" alt="" /></a>
+									<p>•	Processed the image landmark dataset and implement data augmentation to improve test accuracy.. 
+										•	Created a CNN architecture with 5 convolutional layers from scratch to Classify Landmarks  
+										•	Experimented using different pre-trained models and eventually used vgg-16 for the base model suitable for the classification task. 
+										•	Evaluated the  test loss and accuracy to be 1.27 and and 70% respectectely
+										•	The transfer learning model was exported using Torch Script and deployed in an app for user  
+										</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project<</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Machine learning workflow for scones unlimited company using AWS Sagemaker</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/R.jpg" alt="" /></a>
+									<p>•	Extracted the CIFAR sample dataset from a hosting service, explored and transformed it into a usable shape and  format, saved the data into train and test sets and eventually loaded into a production system (S3)
+										•	Trained the model using AWS build-in image classification algorithm with the inference of 0.98% accuracy and deploy to an endpoint 
+										•	Drafted and deployed three Lambda functions for data generation, image classification and filtering out low-confidence inferences respectively and chained together using the Step Functions.
+										</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project<</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Customer Segmentation</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/cust segmentation.jpg" alt="" /></a>
+									<p>Performed customer segmentation on a credit card dataset obtained from kaggle. I carried out preprocessing which include cleaning, data transformation, normalization and principal dimensional analysis on the dataset, find the best k values,
+										 sihoultte and building a model to divide the dataset into three segment.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project<</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<h2><a href="https://github.com/Adeniranridwan/Netflix-Data-Exploration-with-postgresql/blob/main/netflix_sql">NETFLIX DATA EXPLORATION WITH POSTGRESQL</a></h2>
+									</header>
+									<a href="https://github.com/Adeniranridwan/Netflix-Data-Exploration-with-postgresql/blob/main/netflix_sql" class="image fit"><img src="images/sql.jpg" alt="" /></a>
+									<p>Performed Exploratory analysis on a netflix dataset by using Postgresql to query the data for insights and 
+										information about different movie genres and watch time in some state.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Adeniranridwan/Netflix-Data-Exploration-with-postgresql/blob/main/netflix_sql" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#"> Tableau Projects</a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/adeniran.ridwan" class="image fit"><img src="images/tableau.png" alt="" /></a>
+									<p>Tableau Dashboards for Projects. Interactive dashboards done to visualize key insights gotten from datasets.</p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/adeniran.ridwan" class="button">View Project<</a></li>
+									</ul>
+								</article>
+		
+							</section>
+
+						<!-- Footer -->
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Lagos, Nigeria</h3>
+						
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">09058726390</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">hadeniranridwan@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class=""><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/Adeniranridwan" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
